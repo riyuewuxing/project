@@ -1,2 +1,2 @@
 # project
-A project written by an individual. Complete with cursor
+Independently completed projects using cursor
