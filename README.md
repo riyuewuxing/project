@@ -1,2 +1,47 @@
-# project
-Independently completed projects using cursor
+# 坦克大战游戏
+
+![坦克大战游戏截图](assets/images/game_screenshot.png) <!-- 假设有截图文件 -->
+
+一个经典的坦克大战游戏，玩家控制坦克在战场上与敌方坦克作战。
+
+## 运行要求
+- Python 3.6+
+- Pygame 库
+
+## 安装与运行
+1. 安装依赖：
+   ```bash
+   pip install pygame
+   ```
+2. 启动游戏：
+   ```bash
+   python 坦克大战.py
+   ```
+
+## 游戏操作
+- **方向键**：控制坦克移动
+- **空格键**：发射子弹
+- **P键**：暂停游戏
+- **ESC键**：退出游戏
+
+## 项目结构
+```
+坦克大战/
+├── 坦克大战.py        # 游戏主程序
+├── README.md         # 项目说明文档
+├── assets/           # 资源文件
+│   └── images/       # 游戏图像资源
+│       ├── tank.png      # 玩家坦克
+│       ├── enemy_tank.png# 敌方坦克
+│       └── bullet.png    # 子弹
+└── .gitignore        # Git忽略配置
+```
+
+## 开发说明
+如需修改游戏：
+1. 编辑`坦克大战.py`文件修改游戏逻辑
+2. 替换`assets/images/`目录下的图片资源可修改游戏外观
+3. 游戏配置参数可在文件顶部找到并修改
+
+## 贡献
+欢迎提交Pull Request改进游戏！
